@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_lar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+
+    >
+
+    <TextView
+        android:id="@+id/votapp2"
+        android:layout_width="119dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="282dp"
+        android:layout_marginTop="6dp"
+        android:gravity="top"
+
+
+        android:text="@string/votapp"
+        android:textAppearance="@style/votapp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="445dp"
+        android:checked="true"
+
+        />
+
+    <TextView
+        android:id="@+id/create_an_a"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/rectangle_create_account"
+        android:backgroundTint="@color/partialgrey"
+        android:gravity="center"
+        android:text="@string/create_an_a"
+        android:textColor="@color/partialfgrey"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="327dp"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="337dp"
+        android:background="@drawable/rectangle_1"
+        android:gravity="center"
+        android:text="@string/password"
+        android:textColor="@color/partialgrey"
+
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/email_address"
+        android:layout_width="319dp"
+        android:layout_height="73dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="242dp"
+        android:background="@drawable/rectangle_1"
+        android:gravity="center"
+        android:text="@string/email_address"
+        android:textColor="@color/partialgrey"
+
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="62dp"
+        android:gravity="top"
+        android:text="@string/sign_up"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+    <!-- créer un compte en quelques secondes -->
+    <TextView
+        android:id="@+id/cr_er_un_co"
+        android:layout_width="305dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="117dp"
+        android:gravity="top"
+        android:text="@string/cr_er_un_co"
+        android:textColor="@color/partialgrey"
+        android:textSize="16sp" />
+
+
+<!--        android:backgroundTint="@color/partialgrey"-->
+
+
+    <EditText
+        android:id="@+id/full_name"
+        android:layout_width="328dp"
+        android:layout_height="68dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="153dp"
+        android:background="@drawable/rectangle_1"
+        android:gravity="center"
+
+        android:text="@string/full_name"
+
+        android:textColor="@color/partialgrey"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/image_1"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="363dp"
+        android:background="@drawable/password_visible"
+
+        />
+
+    <TextView
+        android:id="@+id/j_accepte_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="448dp"
+        android:gravity="top"
+        android:text="@string/j_accepte_l"
+        android:textColor="@color/partialgrey"
+        android:textSize="14sp" />
+
+    <!-- Deja un membre? Login -->
+    <TextView
+        android:id="@+id/deja_un_mem"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="574dp"
+        android:gravity="top"
+        android:text="@string/deja_un_mem"
+        android:textColor="@color/partialgrey"
+        android:textSize="16sp" />
+    <!--
+    Font family: Inter
+    Line height: 19sp
+    -->
+
+</RelativeLayout>

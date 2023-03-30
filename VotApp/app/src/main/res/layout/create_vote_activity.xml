@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_lar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+
+    >
+    <!-- Ajouter un titre -->
+
+    <Switch
+        android:id="@+id/switch2"
+        style="@style/switch_pink"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="262dp"
+        android:layout_marginTop="493dp"
+        android:checked="false"
+        android:colorControlActivated="@color/pink"
+        android:gravity="center"
+        android:scrollbarThumbHorizontal="@color/pink"
+        android:textColorHighlight="@color/pink"
+        android:thumb="@drawable/ellispse_4"
+        android:track="@drawable/rectangle_switch_white"
+
+
+        />
+
+    <Switch
+        android:id="@+id/switch1"
+        style="@style/switch_pink"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="262dp"
+        android:layout_marginTop="438dp"
+        android:checked="false"
+        android:colorControlActivated="@color/pink"
+        android:gravity="center"
+        android:scrollbarThumbHorizontal="@color/pink"
+        android:textColorHighlight="@color/pink"
+        android:thumb="@drawable/ellispse_4"
+        android:track="@drawable/rectangle_switch_white"
+
+
+        />
+
+
+
+    <!-- Gucci -->
+
+    <TextView
+        android:id="@+id/gucci"
+        android:layout_width="134dp"
+        android:layout_height="68dp"
+        android:layout_alignBottom="@+id/givenchy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginBottom="-80dp"
+        android:gravity="top"
+        android:text="@string/gucci"
+        android:textColor="@color/blanc"
+        android:textSize="32sp" />
+
+
+    <!-- Statistiques -->
+    <TextView
+        android:id="@+id/statistique"
+        android:layout_width="179dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="577dp"
+        android:gravity="top"
+        android:text="@string/statistique"
+        android:textSize="32sp"
+        android:textColor="@color/blanc"/>
+
+    <!-- quelle est votre marque de chaussure preferee -->
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+
+        android:layout_width="368dp"
+        android:layout_height="31dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="@color/pink"
+        android:minWidth="1000dp"
+        android:minHeight="500dp"
+        android:progress="25"
+        android:progressBackgroundTint="@color/pink" />
+
+    <TextView
+        android:id="@+id/ajouter_une"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/rectangle_create_vote"
+        android:gravity="center"
+        android:text="@string/ajouter_une"
+        android:textColor="@color/partialblack"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/givenchy"
+        android:layout_width="165.65dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="437dp"
+        android:gravity="top"
+        android:text="@string/givenchy"
+        android:textSize="32sp"
+        android:autoSizeMaxTextSize="38sp"
+        android:textColor="@color/blanc"
+        />
+
+    <TextView
+        android:id="@+id/quelle_est_"
+        android:layout_width="367dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="317dp"
+        android:gravity="top"
+        android:text="@string/quelle_est_"
+        android:textColor="@color/blanc"
+        android:textSize="17sp" />
+    <!-- Ellipse 1 -->
+
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="46.01dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="384dp"
+        android:background="@drawable/circle_vote_pink" />
+    <!-- Nike -->
+
+    <!--        android:thumb="@drawable/ellipse_7"-->
+
+
+    <TextView
+        android:id="@+id/nike"
+        android:layout_width="78.22dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="381dp"
+        android:gravity="top"
+        android:text="@string/nike"
+        android:textColor="@color/blanc"
+        android:textSize="32sp" />
+
+    <!--        android:thumb="@drawable/ellipse_7"-->
+
+    <Switch
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="386dp"
+        android:checked="true"
+        android:gravity="center"
+        android:scrollbarThumbHorizontal="@color/pink"
+        android:textColorHighlight="@color/pink"
+        style="@style/switch_pink"
+        android:colorControlActivated="@color/pink"
+        android:trackTint="@color/pink"
+        android:thumb="@drawable/ellispse_4"
+        android:track="@drawable/rectangle_switch_white"
+
+
+        />
+
+    <View
+        android:id="@+id/ellipse_"
+        android:layout_width="37dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="323dp"
+        android:layout_marginTop="161dp"
+        android:background="@drawable/ellipse_7"
+        android:text="@string/plus"
+        android:textAlignment="center"
+        android:textColor="@color/blanc"
+        android:textSize="40sp" />
+    <!-- Ellipse 2 -->
+
+    <View
+        android:id="@+id/ellipse_2"
+        android:layout_width="46.01dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="436dp"
+        android:background="@drawable/circle_vote_orange" />
+
+    <View
+        android:id="@+id/ellipse_3"
+        android:layout_width="46.01dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="494dp"
+        android:background="@drawable/circle_vote_green" />
+
+    <TextView
+        android:id="@+id/votapp4"
+        android:layout_width="119dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="282dp"
+        android:layout_marginTop="6dp"
+        android:gravity="top"
+
+
+        android:text="@string/votapp"
+        android:textAppearance="@style/votapp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/plus"-->
+<!--        android:layout_width="24dp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginLeft="345dp"-->
+<!--        android:layout_marginTop="74dp"-->
+<!--        android:gravity="top"-->
+<!--        android:text="@string/plus"-->
+<!--        android:textColor="@color/blanc"-->
+<!--        android:textSize="40sp" />-->
+
+    <TextView
+        android:id="@+id/votes_en_co"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="233dp"
+        android:background="@drawable/rectangle_create_vote"
+        android:gravity="center"
+
+        android:text="@string/votes_en_co"
+        android:textColor="@color/blanc"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/ajouter_un_"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/rectangle_create_vote"
+        android:gravity="center"
+        android:text="@string/ajouter_un_"
+
+        android:textColor="@color/partialblack"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/ellipse_7"
+        android:layout_width="37dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="322dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/plus"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="@color/blanc"
+        android:background="@drawable/ellipse_7" />
+
+</RelativeLayout>

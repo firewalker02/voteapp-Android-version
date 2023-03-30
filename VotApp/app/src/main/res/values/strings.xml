@@ -1,0 +1,36 @@
+<resources>
+    <string name="votapp" translatable="false">VotApp </string>
+    <string name="app_name">Votapp</string>
+    <string name= "suiteHyp"> Suite  ></string>
+    <string name="some_id" translatable="false"> ></string>
+    <string name="suite" translatable="false">Suite      ></string>
+    <string name="vous_voulez" translatable="false">vous voulez connaitre</string>
+    <string name="l_avis_des" translatable="false">l\'avis des autres candidats a votre sujet?</string>
+    <string name="vot_app" translatable="false">Votapp</string>
+    <string name="sign_up" translatable="false">Sign up</string>
+    <string name="cr_er_un_co" translatable="false">creer un compte en quelques secondes</string>
+    <string name="full_name" translatable="false">Full name</string>
+    <string name="email_address" translatable="false"> email address</string>
+    <string name="password" translatable="false"> password</string>
+    <string name="j_accepte_l" translatable="false">J\'accepte les conditions d\'utilisation</string>
+    <string name="create_an_a" translatable="false">Create an account</string>
+    <string name="deja_un_mem" translatable="false">Deja un membre? <b> <u>Login</u></b></string>
+    <string name="login">Login</string>
+    <string name="veuillez_sa">veuillez saisir vos identifiants de connexion</string>
+    <string name="email_addre">Email address</string>
+    <string name="mot_de_pass">mot de passe oublie?</string>
+    <string name="garder_moi_">Garder moi connecter</string>
+    <string name="log_in">Log in</string>
+    <string name="ajouter_un_">Ajouter un titre</string>
+    <string name="ajouter_une">Ajouter une image</string>
+    <string name="plus">+</string>
+    <string name="votes_en_co">Votes en cours</string>
+    <string name="quelle_est_">quelle est votre marque de chaussure preferee?</string>
+    <string name="nike">Nike</string>
+    <string name="givenchy">Givenchy</string>
+    <string name="gucci">Gucci</string>
+    <string name="statistique">Statistiques</string>
+
+
+
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/android_lar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+
+
+    >
+    <!-- VotApp -->
+
+
+    <!-- Suite -->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/some_id"-->
+    <!--        android:layout_width="68dp"-->
+    <!--        android:layout_height="51dp"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_marginLeft="96dp"-->
+    <!--        android:layout_marginTop="653dp"-->
+    <!--        android:gravity="top"-->
+    <!--        android:text="@string/some_id"-->
+    <!--        android:textAppearance="@style/some_id" />-->
+    <!--  Arrow textview-->
+
+    <TextView
+        android:id="@+id/l_avis_des_"
+        android:layout_width="375dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="456dp"
+        android:layout_marginEnd="12dp"
+        android:gravity="top"
+
+        android:text="@string/l_avis_des"
+
+
+        android:textColor="@color/blanc"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/votapp"
+        android:layout_width="119dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/votapp"
+        android:textAppearance="@style/votapp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+
+
+        />
+
+    <TextView
+        android:id="@+id/vous_voulez"
+        android:layout_width="290dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="416dp"
+        android:gravity="top"
+        android:text="@string/vous_voulez"
+        android:textColor="@color/blanc"
+
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.743"
+
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/vot_app"
+        android:layout_width="140dp"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="136dp"
+        android:gravity="top"
+
+
+        android:text="@string/vot_app"
+
+        android:textColor="@color/blanc"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/vote_app_2_"
+        android:layout_width="319dp"
+        android:layout_height="327dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/vote_app_background"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.195" />
+
+    <TextView
+        android:id="@+id/suite"
+        android:layout_width="142dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="300dp"
+
+        android:layout_marginTop="552dp"
+        android:gravity="top"
+        android:onClick="click"
+        android:text="@string/suite"
+        android:textAppearance="@style/suite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

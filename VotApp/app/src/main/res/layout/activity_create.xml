@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText">
+
+
+    <!--        app:layout_constraintHorizontal_bias="0.011"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+
+<!--        app:layout_constraintStart_toStartOf="@+id/addicon"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+
+<!--        tools:layout_editor_absoluteX="-1dp"-->
+<!--        tools:layout_editor_absoluteY="7dp" />-->
+
+    <TextView
+
+        android:id="@+id/onvoting3"
+
+        android:layout_width="252dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="312dp"
+        android:text="Vote en cours"
+        android:textSize="25sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:id="@+id/onvoting2"
+
+        android:layout_width="392dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="268dp"
+        android:text="Quelle est votre marque de chassure preferee?"
+        android:textSize="15sp"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:id="@+id/onvoting"
+
+        android:layout_width="252dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="216dp"
+        android:text="Vote en cours"
+        android:textSize="25sp"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addicon"
+        android:layout_width="75dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="@color/teal_200"
+
+
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="330dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="263dp"
+        android:layout_height="54dp"
+        android:text="Nouveau Vote"
+        android:textSize="40sp"
+        android:id="@+id/viewVote"
+        app:layout_constraintHorizontal_bias="0.011"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="72dp"
+        android:gravity="center"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addicon1"
+        android:layout_width="75dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="@color/teal_200"
+
+
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <Switch
+        android:layout_width="86dp"
+        android:layout_height="78dp"
+
+        android:layout_marginTop="292dp"
+        app:layout_constraintHorizontal_bias="0.898"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--    <ImageButton-->
+<!--        android:id="@+id/addicon"-->
+<!--        android:layout_width="112dp"-->
+<!--        android:layout_height="57dp"-->
+<!--        android:layout_marginTop="84dp"-->
+<!--        android:src="@drawable/add_icon"-->
+<!--        app:layout_constraintHorizontal_bias="0.986"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
