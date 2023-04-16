@@ -16,5 +16,6 @@
     <color name="orange"> #FF7F0A</color>
     <color name="pink">#BC50EF</color>
     <color name="lightgrey">#B0ADAD</color>
+    <color name="green"> #55FA1B</color>
 <!--    ns1="https://schemas.android.com/tools" xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2"-->
 </resources>
